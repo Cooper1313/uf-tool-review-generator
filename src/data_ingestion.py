@@ -2,7 +2,8 @@ import pandas as pd
 from docx import Document
 import os
 
-DATA_DIR = "../data"
+DATA_DIR = "data"
+OUTPUT_DIR = "output"
 
 def load_excel(file_name):
     path = os.path.join(DATA_DIR, file_name)
