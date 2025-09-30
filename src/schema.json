@@ -1,0 +1,35 @@
+{
+  "Tool Finder Summary": { "type": "text" },
+  "Status": {
+    "type": "select",
+    "options": ["Available", "Under review", "Denied Usage"]
+  },
+  "Purpose": {
+    "type": "multi-select",
+    "options": [
+      "Assessment", "Content", "Content Creation", "Discussion",
+      "Interactivity", "Library", "Peer Review", "Plagiarism",
+      "Proctoring Content", "Storage", "Publisher Content"
+    ]
+  },
+  "Usage": {
+    "type": "multi-select",
+    "options": ["Canvas", "Website", "Mobile App"]
+  },
+  "Cost": {
+    "type": "select",
+    "options": ["Cost", "No Cost", "Campus Licensed"]
+  },
+  "Support": {
+    "type": "select",
+    "options": ["Full Support", "Limited Support", "Vendor Support"]
+  },
+  "Overview": { "type": "text" },
+  "Functions": {
+    "Features": "text",
+    "Grade pass back": "yes/no",
+    "Canvas LTI": "yes/no",
+    "Non-LTI": "yes/no",
+    "Mobile Access": "yes/no"
+  }
+}
