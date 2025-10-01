@@ -1,5 +1,5 @@
-# uf-tool-review-generator
-Automated tool review generator for UF’s CITT
+# tool-reviewer
+Automated tool review generator 
 
 #Collab run
 Click below to launch the automation pipeline directly in Colab:
